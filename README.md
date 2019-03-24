@@ -1,4 +1,5 @@
 ## Welcome to GitHub Pages
+So I can just add stuff here?
 
 You can use the [editor on GitHub](https://github.com/brachchampion/brachelchampion.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
