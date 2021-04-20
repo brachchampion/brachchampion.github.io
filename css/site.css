@@ -1,0 +1,285 @@
+/* Root variables https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties */
+:root {
+    --color-black: #111111;
+    --color-light-grey: #f0f0f0;
+    --color-dark-grey: #999999;
+    --color-highlight: #b6a9bd;
+    --color-dark-highlight: #705380;
+    --color-slides: #ececec;
+    --measurement: 2px;
+}
+
+/* Basic Font Setup */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    color: var(--color-black);
+    font-size: 18px;
+}
+.container {
+    min-height:100%;
+}
+
+a {
+    color: var(--color-black);
+}
+a:hover {
+    color: var(--color-dark-grey)
+}
+
+p {
+    line-height: 22px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Merriweather, Times, serif;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+/* Change Boostrap Container Width */
+@media (min-width: 544px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 80%;
+        max-width: 1400px;
+    }
+}
+
+
+
+/* Utility Classes */
+
+.no-padding {
+    padding: 0;
+}
+
+
+/* Header */
+
+.title {
+    margin-top: 20px;
+    padding-top: 36px;
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+}
+
+.title h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    margin: 8px 0;
+}
+
+.title p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: var(--color-dark-grey);
+
+    margin: 0 0 12px 0;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    display: block;
+    border-bottom: 3px #000 solid;
+}
+
+.nav-links {
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+
+
+.nav-links li {
+    padding: 12px 0;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .nav-links li {
+        display: inline-block;
+        padding: 0 12px; 
+    }
+}
+
+.nav-links li a{
+    color: var(--color-black);
+    text-decoration: none;
+}
+.nav-links li a:hover {
+    color: var(--color-dark-grey);
+}
+.nav-links li.in {
+    color: var(--color-dark-grey);
+}
+.nav-links li.in a {
+    color: var(--color-dark-grey);
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--color-dark-grey);
+    border-top: 3px #000 solid;
+    margin-top: 40px; 
+    min-height: 16px;
+}
+
+
+/* Lists */
+ol, ul {
+    padding-left: 24px;
+}
+ol li, ul li {
+    padding-left: 8px;
+}
+
+
+
+
+/* Research Items */
+.research-item {
+    line-height: 22px;
+    margin-bottom: 64px;
+    margin-top: 64px;
+}
+
+.research-title {
+    font-weight: bold;
+    font-family: Merriweather, Times, serif;
+    font-size: 20px;
+}
+
+.research-coauthors {
+    margin: 12px 0 20px 0;
+    font-family: Merriweather, Times, serif;
+    font-style: italic;
+    color: #555;
+}
+
+.research-journal {
+    font-family: Muli, Arial, Helvetica, sans-serif;
+    margin: 4px 0 20px 0;
+}
+
+.research-abstract {
+    line-height: 28px;
+    margin: 4px 0 20px 0;
+}
+
+hr {
+    display: block;
+    margin: 1em 0;
+    border: 0;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+    border-top: 1px solid #bbb;
+}
+
+
+
+
+
+
+
+
+/* Cover Box (Buy Book) */
+
+.cover-box {
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    padding: 16px 0;
+    margin-bottom: 16px;
+}
+
+.cover-img img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.cover-text-box h2 {
+    margin-top: 0;
+}
+
+.cover-text {
+    line-height: 22px;
+}
+
+.cover-text .chips {
+	padding-bottom: 16px;
+} 
+
+@media (min-width: 768px) {
+	.cover-img img {
+		width: 100%;
+	}
+	.cover-text-box {
+		position: relative;
+		padding-left: 16px;
+	}
+}
+
+
+
+/* App Chip for pdf and other links */
+.chips {
+	display: block;
+}
+.chips p{
+	display: block;
+	float: left;
+	margin-right: 8px;
+}
+
+.app-chip {
+ display: inline-block;
+ font-size: 14px;
+ line-height: 20px;
+ letter-spacing: 0;
+ text-decoration: none;
+ padding: 0.5rem;
+ border: 1px solid #eee;
+ border-radius: 0.2rem;
+
+ transition: all 0.15s linear;
+ transition-property: all;
+}
+
+
+/* Font Awesome icons */
+.app-chip>.fa,
+.app-chip>.fab,
+.app-chip>.far,
+.app-chip>.fas {
+ padding-right: 4px;
+}
+.app-chip>.fa-caret-down, .app-chip>.fa-caret-up {
+ padding-left: 8px;
+}
