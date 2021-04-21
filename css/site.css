@@ -36,9 +36,6 @@ h1, h2, h3, h4, h5 {
     font-family: Merriweather, Times, serif;
 }
 
-.col-xs-12 {
-    width: 100%;
-}
 
 /* Change Boostrap Container Width */
 @media (min-width: 544px) {
@@ -60,18 +57,6 @@ h1, h2, h3, h4, h5 {
     }
 }
 
-
-
-/* Utility Classes */
-
-.no-padding {
-    padding: 0;
-}
-
-/* Navbar */
-.nav-name {
-    font-family: Rufina, Times, serif;
-}
 
 /* Research Items */
 .research-item {
