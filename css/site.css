@@ -7,6 +7,9 @@
     --color-dark-highlight: #001a33;
 }
 
+/* #edc300 */
+
+
 /* Basic Font Setup */
 body {
     padding: 0;
@@ -16,7 +19,7 @@ body {
     font-size: 16px;
 }
 .container {
-    min-height:100%;
+    min-height: 100%;
 }
 
 a {
@@ -33,6 +36,9 @@ p {
 h1, h2, h3, h4, h5 {
     font-family: Zilla Slab, Times, serif;
 }
+h1{ font-size: 2.5rem; }
+h2{ font-size: 2.25rem; }
+h3{ font-size: 2rem; }
 
 
 /* Change Boostrap Container Width */
@@ -55,6 +61,22 @@ h1, h2, h3, h4, h5 {
     }
 }
 
+/* Section Header */
+.section-header {
+    padding: 16px 0;
+    margin: 16px 0;
+    text-align: center;
+    border-bottom: 3px solid var(--color-dark-highlight);
+}
+
+/* Link Button */
+
+.link-btn {
+    border: 1px solid var(--color-dark-grey);
+}
+.link-btn a {
+    text-decoration: none;
+}
 
 /* Research Items */
 .research-item {
@@ -66,19 +88,25 @@ h1, h2, h3, h4, h5 {
 .research-title {
     font-weight: bold;
     font-family: Zilla Slab, Times, serif;
-    font-size: 20px;
+    font-size: 22px;
+    line-height: 28px;
 }
 
 .research-coauthors {
     margin: 12px 0 20px 0;
     font-family: Zilla Slab, Times, serif;
     font-style: italic;
+    font-size: 18px;
     color: #555;
 }
 
 .research-journal {
     font-family: Muli, Arial, Helvetica, sans-serif;
     margin: 4px 0 20px 0;
+}
+
+.research-links {
+    margin: 8px 0 16px 0;
 }
 
 .research-abstract {
