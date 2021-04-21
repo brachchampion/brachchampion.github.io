@@ -4,25 +4,23 @@
     --color-light-grey: #f0f0f0;
     --color-dark-grey: #999999;
     --color-highlight: #b6a9bd;
-    --color-dark-highlight: #705380;
-    --color-slides: #ececec;
-    --measurement: 2px;
+    --color-dark-highlight: #001a33;
 }
 
 /* Basic Font Setup */
 body {
     padding: 0;
     margin: 0;
-    font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
     color: var(--color-black);
-    font-size: 18px;
+    font-size: 16px;
 }
 .container {
     min-height:100%;
 }
 
 a {
-    color: var(--color-black);
+    color: var(--color-dark-highlight);
 }
 a:hover {
     color: var(--color-dark-grey)
@@ -33,7 +31,7 @@ p {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: Merriweather, Times, serif;
+    font-family: Zilla Slab, Times, serif;
 }
 
 
@@ -67,13 +65,13 @@ h1, h2, h3, h4, h5 {
 
 .research-title {
     font-weight: bold;
-    font-family: Merriweather, Times, serif;
+    font-family: Zilla Slab, Times, serif;
     font-size: 20px;
 }
 
 .research-coauthors {
     margin: 12px 0 20px 0;
-    font-family: Merriweather, Times, serif;
+    font-family: Zilla Slab, Times, serif;
     font-style: italic;
     color: #555;
 }
