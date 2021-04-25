@@ -123,32 +123,3 @@ hr {
     border-top-width: 0px;
     border-top: 1px solid #bbb;
 }
-
-
-.cover-box {
-    border-top: 1px solid #bbb;
-    border-bottom: 1px solid #bbb;
-    padding: 16px 0;
-    margin-bottom: 16px;
-}
-
-.cover-img img {
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
-}
-
-.cover-text-box h2 {
-    margin-top: 0;
-}
-
-.cover-text {
-    line-height: 22px;
-}
-
-.cover-text .chips {
-	padding-bottom: 16px;
-} 
-
