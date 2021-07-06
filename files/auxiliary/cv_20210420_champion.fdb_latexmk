@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1623965024 "/Users/brachchampion/Documents/GitHub/brachchampion.github.io/files/cv_20210420_champion.tex" "/Users/brachchampion/Documents/GitHub/brachchampion.github.io/files/auxiliary/cv_20210420_champion.pdf" "cv_20210420_champion" 1623965025
-  "/Users/brachchampion/Documents/GitHub/brachchampion.github.io/files/auxiliary/cv_20210420_champion.aux" 1623965024 757 57807d2400c150987558705201f0410e ""
-  "/Users/brachchampion/Documents/GitHub/brachchampion.github.io/files/cv_20210420_champion.tex" 1623965023 6201 879c4829a0a1e6dfc152a4013e221562 ""
+["pdflatex"] 1625595695 "/Users/brachchampion/Documents/GitHub/brachchampion.github.io/files/cv_20210420_champion.tex" "/Users/brachchampion/Documents/GitHub/brachchampion.github.io/files/auxiliary/cv_20210420_champion.pdf" "cv_20210420_champion" 1625595695
+  "/Users/brachchampion/Documents/GitHub/brachchampion.github.io/files/auxiliary/cv_20210420_champion.aux" 1625595695 757 57807d2400c150987558705201f0410e ""
+  "/Users/brachchampion/Documents/GitHub/brachchampion.github.io/files/cv_20210420_champion.tex" 1625595694 6202 a63e45fb1554e095ed725f17e9292202 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1480098666 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc" 1480098667 2437 443c81fb50993bacedc5f9a206c322b0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1480098667 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -80,13 +80,13 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1523934516 4220280 10cab8fbd7c5a7c52aba9917e190d018 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "auxiliary/cv_20210420_champion.aux" 1623965024 757 57807d2400c150987558705201f0410e ""
-  "auxiliary/cv_20210420_champion.out" 1623965024 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "cv_20210420_champion.tex" 1623965023 6201 879c4829a0a1e6dfc152a4013e221562 ""
+  "auxiliary/cv_20210420_champion.aux" 1625595695 757 57807d2400c150987558705201f0410e ""
+  "auxiliary/cv_20210420_champion.out" 1625595695 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "cv_20210420_champion.tex" 1625595694 6202 a63e45fb1554e095ed725f17e9292202 ""
   (generated)
-  "auxiliary/cv_20210420_champion.log"
-  "/Users/brachchampion/Documents/GitHub/brachchampion.github.io/files/auxiliary/cv_20210420_champion.log"
+  "auxiliary/cv_20210420_champion.out"
   "auxiliary/cv_20210420_champion.aux"
   "/Users/brachchampion/Documents/GitHub/brachchampion.github.io/files/auxiliary/cv_20210420_champion.pdf"
+  "/Users/brachchampion/Documents/GitHub/brachchampion.github.io/files/auxiliary/cv_20210420_champion.log"
   "auxiliary/cv_20210420_champion.pdf"
-  "auxiliary/cv_20210420_champion.out"
+  "auxiliary/cv_20210420_champion.log"
