@@ -9,6 +9,13 @@
 
 /* #edc300 */
 
+/* Nav bar */
+.nav { flex-wrap: nowrap; }
+
+.active, nav li:hover {
+    background: var(--color-light-grey);
+    border-radius: 8px;
+   }
 
 /* Basic Font Setup */
 body {
