@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta name="googlebot" content="Brachel Champion, Brach Champion">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home | Brachel Champion</title>
+        <title>CV | Brachel Champion</title>
     
     
         <link href="https://fonts.googleapis.com/css?family=Poppins|Zilla+Slab|Source+Sans+Pro" rel="stylesheet">
@@ -26,15 +25,16 @@
     </head>
 
 <body>
-    <!-- Nav -->
-    <nav class="py-2 border-bottom">
+
+   <!-- Nav -->
+   <nav class="py-2 border-bottom">
         <div class="container d-flex flex-wrap justify-content-center">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
                 <span class="fs-4">Brachel Champion</span>
             </a>
             <ul class="nav" style="padding-left: 10px; padding-right: 10px;">
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="research.html">Research</a>
@@ -46,7 +46,7 @@
                     <a class="nav-link" href="cv.html">CV</a> 
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="resources.html">Resources</a> 
+                    <a class="nav-link active" href="resources.html">Resources</a> 
                 </li>
             </ul>
             <span class="fs-4 social-links"> 
@@ -58,31 +58,24 @@
             </span>
         </div>
     </nav>
+
     <div class="container">
+        <!-- h3: Shiny Apps -->
         <div class="row">
             <div class="col-xs-12 col-md-12 no-padding section-header">
-                <h3>About Me</h3>
+                <h3>Shiny Apps</h3>
+            </div>
+            <div class="col-xs-12 col-md-12 no-padding">
+                <p>
+                    These are web applications I created using R and the Shiny API. To see the source code, click <a href="https://github.com/brachchampion/shinyapps" target="_blank">here</a>.
+                </p>
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-12 col-md-4">
-                <img src="img/headshot.jpg" width="100%">
-            </div>
-            <div class="col-xs-12 col-md-8 no-padding">
-                    <p>
-                        I am an Economics PhD candidate at the University of Colorado Boulder with fields in Health and Development Economics. My research focuses on the economics of youth development, maternal/child health, and mental health. I am available for interviews during the 2021/2022 job market cycle.
-                    </p>
-                <h5>Contact:</h5>
-                    <p>
-                        <a href="mailto:brachel.champion@colorado.edu">brachel.champion@colorado.edu</a>
-                    </p>
-                    <p>
-                        <a href="files/cv_champion.pdf">CV</a>
-                    </p>
-            </div>
-        </div>
+            <iframe height="800" width="100%" frameborder="no" src="https://brachelchampion.shinyapps.io/PowerApp/"> </iframe>
         </div>
     </div>
+    <div class="row" style="padding-bottom: 200px;">
+    </div>
 </body>
-
 </html>
