@@ -135,3 +135,28 @@ hr {
     border-top-width: 0px;
     border-top: 1px solid #bbb;
 }
+
+/* --- Copy button styles --- */
+.copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.2s ease;
+}
+
+.copy-btn:hover {
+  opacity: 1;
+  background-color: #e9ecef;
+}
+
+.blog-container {
+  max-width: 800px;
+  margin: 0 auto; /* centers the container */
+}
